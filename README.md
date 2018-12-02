@@ -15,7 +15,7 @@ For convenience, the app uses ExpressJS server for api calls and to display the 
 
 ### Installation
 
-To install locally, clone the code and navigate to the folder 'front-end-code-test'. Ensure that you have first installed NodeJS, then use npm:
+The code is pre-compiled and built. To install locally, clone the code and navigate to the folder 'front-end-code-test'. Ensure that you have first installed NodeJS, then use npm:
 
 ```
 npm install
@@ -28,6 +28,8 @@ npm start
 and navigate to 'http:\localhost:3000' in your web browser.
 
 ### Details
+
+The code is pre-compiled, built and tested. For development:
 
 #### Testing
 To run the unit tests:
