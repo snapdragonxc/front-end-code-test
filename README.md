@@ -29,7 +29,7 @@ and navigate to 'http:\localhost:3000' in your web browser.
 
 ### Development Details
 
-The code is pre-compiled, built and tested. For development:
+The code is pre-compiled, built and tested. For further development:
 
 #### Testing
 To run the unit tests:
