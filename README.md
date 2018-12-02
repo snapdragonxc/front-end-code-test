@@ -27,7 +27,7 @@ npm start
 ```
 and navigate to 'http:\localhost:3000' in your web browser.
 
-### Details
+### Development Details
 
 The code is pre-compiled, built and tested. For development:
 
