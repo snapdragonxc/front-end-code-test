@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body { font-family: sans-serif; }
+
+.wrap {
+  margin: 0 auto;
+  padding: 10px;
+  max-width: 1320px; // width taken from psd drawing
+}
+
+.photo { width: 100%; }
+
+// Colors: - taken from psd drawing
+$blue: #ddf2f3;
+$green: #009900;
+$red: #cc3232;
+$white: #fff;
+$grey-dark: #333333;
+$grey-light: #e2e2e2;

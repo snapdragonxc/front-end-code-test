@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: sans-serif; }
+
+.wrap {
+  margin: 0 auto;
+  padding: 10px;
+  max-width: 1320px; }
+
+.photo {
+  width: 100%; }
+
+/* Header Styling */
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ddf2f3;
+  padding: 10px;
+  margin-bottom: 10px; }
+  .header__title, .header__sort {
+    width: 100%; }
+  .header__title {
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: center; }
+  .header__sort {
+    background-color: #fff;
+    padding: 5px; }
+
+/* Tablet  */
+@media only screen and (min-width: 400px) {
+  .header {
+    flex-wrap: nowrap;
+    justify-content: space-between; }
+    .header__title {
+      margin-bottom: 0;
+      text-align: left; }
+    .header__title, .header__sort {
+      width: auto; } }
+
+/* Product List Styling */
+.product-list,
+.product-list__item {
+  border-style: solid;
+  border-color: #e2e2e2; }
+
+.product-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  border-width: 1px 0 0 1px;
+  /* Details */
+  /* Tabs */ }
+  .product-list__link {
+    text-decoration: none;
+    color: #333333; }
+  .product-list__item {
+    padding: 10px;
+    border-width: 0 1px 1px 0;
+    width: 100%; }
+  .product-list__price, .product-list__name {
+    vertical-align: baseline;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    font-weight: bold; }
+  .product-list__name {
+    font-size: 17.5px; }
+  .product-list__price {
+    font-size: 27.5px;
+    padding-top: 7.5px;
+    /* for alignment */ }
+  .product-list__details {
+    margin-bottom: 28px; }
+  .product-list__tabs {
+    margin-bottom: 20px; }
+  .product-list__tab {
+    color: #fff;
+    padding: 20px 20px 20px 20px;
+    display: inline-block;
+    font-size: 12.5px; }
+    .product-list__tab--sale {
+      background-color: #cc3232; }
+    .product-list__tab--exclusive {
+      background-color: #009900; }
+
+/* Tablet  */
+@media only screen and (min-width: 400px) {
+  .product-list__item {
+    max-width: 50%; } }
+
+/* Desktop */
+@media only screen and (min-width: 960px) {
+  .product-list__item {
+    width: 25%; }
+  .product-list__name {
+    width: 67%;
+    text-align: left; }
+  .product-list__price {
+    max-width: 33%;
+    text-align: right; } }

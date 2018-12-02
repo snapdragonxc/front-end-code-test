@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1543739156072" clover="3.2.0">
+  <project timestamp="1543739156072" name="All files">
+    <metrics statements="22" coveredstatements="22" conditionals="14" coveredconditionals="14" methods="11" coveredmethods="11" elements="47" coveredelements="47" complexity="0" loc="22" ncloc="22" packages="1" files="2" classes="2">
+      <file name="Shop.js" path="/home/mark/Desktop/CodeTest3/src/Shop.js">
+        <metrics statements="5" coveredstatements="5" conditionals="8" coveredconditionals="8" methods="4" coveredmethods="4"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="25" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="37" count="3" type="stmt"/>
+      </file>
+      <file name="ShopContainer.js" path="/home/mark/Desktop/CodeTest3/src/ShopContainer.js">
+        <metrics statements="17" coveredstatements="17" conditionals="6" coveredconditionals="6" methods="7" coveredmethods="7"/>
+        <line num="26" count="5" type="stmt"/>
+        <line num="27" count="5" type="stmt"/>
+        <line num="28" count="5" type="stmt"/>
+        <line num="29" count="15" type="stmt"/>
+        <line num="30" count="15" type="stmt"/>
+        <line num="31" count="40" type="cond" truecount="2" falsecount="0"/>
+        <line num="32" count="25" type="stmt"/>
+        <line num="36" count="5" type="stmt"/>
+        <line num="41" count="2" type="stmt"/>
+        <line num="42" count="2" type="stmt"/>
+        <line num="43" count="2" type="stmt"/>
+        <line num="44" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="45" count="3" type="stmt"/>
+        <line num="47" count="2" type="stmt"/>
+        <line num="51" count="12" type="stmt"/>
+        <line num="52" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="53" count="12" type="stmt"/>
+      </file>
+    </metrics>
+  </project>
+</coverage>
