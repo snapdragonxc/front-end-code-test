@@ -15,7 +15,7 @@ For convenience, the app uses ExpressJS server for api calls and to display the 
 
 ### Installation
 
-To install locally, clone the code. Ensure that you have first installed NodeJS, then use npm:
+To install locally, clone the code and navigate to the folder 'front-end-code-test'. Ensure that you have first installed NodeJS, then use npm:
 
 ```
 npm install
