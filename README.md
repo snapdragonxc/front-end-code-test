@@ -29,7 +29,7 @@ and navigate to 'http:\localhost:3000' in your web browser.
 
 ### Development Details
 
-The code is pre-compiled, built and tested. The npm command for development are:
+The code is pre-compiled, built and tested. The npm commands for development are:
 
 #### Testing
 To run the unit tests:
